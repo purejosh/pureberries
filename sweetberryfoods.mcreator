@@ -147,8 +147,8 @@
   },
   "workspaceSettings": {
     "modid": "sweetberryfoods",
-    "modName": "sweetberryfoods",
-    "version": "1.0.1",
+    "modName": "Sweet Berry Foods",
+    "version": "1.0.0",
     "description": "A simple, cleanly designed mod that adds new foods related to the sweet berry, with a focus on maintaining balance and vanilla mechanics.",
     "author": "purejosh",
     "websiteURL": "https://github.com/purejosh/sweetberryfoods",
