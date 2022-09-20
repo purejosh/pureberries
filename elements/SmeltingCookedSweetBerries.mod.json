@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.1,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "sweet_berries",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.SWEET_BERRIES"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedSweetBerries"
+    },
+    "name": "smelting_cooked_sweet_berries",
+    "namespace": "mod"
+  }
+}

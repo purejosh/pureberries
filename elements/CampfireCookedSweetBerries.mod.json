@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "xpReward": 0.0,
+    "cookingTime": 600,
+    "recipeRetstackSize": 1,
+    "group": "sweet_berries",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Items.SWEET_BERRIES"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:CookedSweetBerries"
+    },
+    "name": "campfire_cooked_sweet_berries",
+    "namespace": "mod"
+  }
+}

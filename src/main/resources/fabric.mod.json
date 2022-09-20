@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "sweetberryfoods",
+  "version": "1.0.1",
+  "name": "sweetberryfoods",
+  "description": "A simple, cleanly designed mod that adds new foods related to the sweet berry, with a focus on maintaining balance and vanilla mechanics.",
+  "authors": [
+    "purejosh"
+  ],
+  "contact": {
+    "homepage": "https://github.com/purejosh/sweetberryfoods",
+    "sources": ""
+  },
+  "license": "Custom license",
+  "icon": "assets/sweetberryfoods/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.purejosh.sweetberryfoods.SweetberryfoodsMod"
+    ],
+    "client": [
+      "net.purejosh.sweetberryfoods.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}

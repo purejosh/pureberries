@@ -1,0 +1,19 @@
+{
+  "group": "pie",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "sweetberryfoods:sweet_berry_tart",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 0.1,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "sweet_berries",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "Items.SWEET_BERRIES"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedSweetBerries"
+    },
+    "name": "smoker_cooked_sweet_berries",
+    "namespace": "mod"
+  }
+}

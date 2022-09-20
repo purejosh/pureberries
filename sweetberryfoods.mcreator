@@ -1,0 +1,169 @@
+{
+  "mod_elements": [
+    {
+      "name": "CookedSweetBerries",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_sweet_berries",
+      "path": "~/foods"
+    },
+    {
+      "name": "SweetBerryTart",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_tart",
+      "path": "~/foods"
+    },
+    {
+      "name": "SweetBerryMuffin",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_muffin",
+      "path": "~/foods"
+    },
+    {
+      "name": "SweetBerryJamPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_jam_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/foods/Procedures"
+    },
+    {
+      "name": "SmeltingCookedSweetBerries",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting_cooked_sweet_berries",
+      "path": "~/foods/Recipes"
+    },
+    {
+      "name": "SmokerCookedSweetBerries",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoker_cooked_sweet_berries",
+      "path": "~/foods/Recipes"
+    },
+    {
+      "name": "CampfireCookedSweetBerries",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "campfire_cooked_sweet_berries",
+      "path": "~/foods/Recipes"
+    },
+    {
+      "name": "CraftingSweetBerryJam",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_sweet_berry_jam",
+      "path": "~/foods/Recipes"
+    },
+    {
+      "name": "CraftingSweetBerryMuffin",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_sweet_berry_muffin",
+      "path": "~/foods/Recipes"
+    },
+    {
+      "name": "CraftingSweetBerryTart",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_sweet_berry_tart",
+      "path": "~/foods/Recipes"
+    },
+    {
+      "name": "SweetBerryJuice",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_juice",
+      "path": "~/foods"
+    },
+    {
+      "name": "PumpkinPie",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_pie",
+      "path": "~/foods/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.sweetberryfoods.cooked_sweet_berries": "Cooked Sweet Berries",
+      "item.sweetberryfoods.sweet_berry_juice": "Sweet Berry Juice",
+      "item.sweetberryfoods.sweet_berry_muffin": "Sweet Berry Muffin",
+      "item.sweetberryfoods.sweet_berry_tart": "Sweet Berry Tart"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "foods",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "sweetberryfoods",
+    "modName": "sweetberryfoods",
+    "version": "1.0.1",
+    "description": "A simple, cleanly designed mod that adds new foods related to the sweet berry, with a focus on maintaining balance and vanilla mechanics.",
+    "author": "purejosh",
+    "websiteURL": "https://github.com/purejosh/sweetberryfoods",
+    "license": "Custom license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Made by purejosh",
+    "modElementsPackage": "net.purejosh.sweetberryfoods",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
