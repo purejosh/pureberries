@@ -1,0 +1,22 @@
+{
+  "group": "juice",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sweetberryfoods:cooked_blueberries"
+    },
+    {
+      "item": "sweetberryfoods:cooked_blueberries"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "sweetberryfoods:cooked_blueberries"
+    }
+  ],
+  "result": {
+    "item": "sweetberryfoods:blueberry_juice",
+    "count": 1
+  }
+}

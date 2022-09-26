@@ -8,12 +8,12 @@ import net.minecraft.world.effect.MobEffects;
 
 import java.util.Map;
 
-public class SweetBerryJamPlayerFinishesUsingItemProcedure {
+public class SweetBerryJuicePlayerFinishesUsingItemProcedure {
 
 	public static void execute(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				SweetberryfoodsMod.LOGGER.warn("Failed to load dependency entity for procedure SweetBerryJamPlayerFinishesUsingItem!");
+				SweetberryfoodsMod.LOGGER.warn("Failed to load dependency entity for procedure SweetBerryJuicePlayerFinishesUsingItem!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sweetberryfoods:blocks/blueberry_bush_stage1",
+    "particle": "sweetberryfoods:blocks/blueberry_bush_stage1"
+  }
+}

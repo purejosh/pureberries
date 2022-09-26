@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "sweetberryfoods",
-  "version": "1.0.0",
+  "version": "2.0.0-rc.1",
   "name": "Sweet Berry Foods",
   "description": "A simple, cleanly designed mod that adds new foods related to the sweet berry, with a focus on maintaining balance and vanilla mechanics.",
   "authors": [
     "purejosh"
   ],
   "contact": {
-    "homepage": "https://github.com/purejosh/sweetberryfoods",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/sweet-berry-foods-fabric-forge",
     "sources": ""
   },
   "license": "Custom license",

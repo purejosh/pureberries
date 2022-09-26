@@ -12,7 +12,7 @@
     },
     "stackSize": 16,
     "enchantability": 0,
-    "useDuration": 40,
+    "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -30,7 +30,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "SweetBerryJamPlayerFinishesUsingItem"
+      "name": "SweetBerryJuicePlayerFinishesUsingItem"
     },
     "isFood": true,
     "nutritionalValue": 6,

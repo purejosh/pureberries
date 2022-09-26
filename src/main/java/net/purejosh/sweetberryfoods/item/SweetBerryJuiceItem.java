@@ -1,7 +1,7 @@
 
 package net.purejosh.sweetberryfoods.item;
 
-import net.purejosh.sweetberryfoods.procedures.SweetBerryJamPlayerFinishesUsingItemProcedure;
+import net.purejosh.sweetberryfoods.procedures.SweetBerryJuicePlayerFinishesUsingItemProcedure;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
@@ -29,7 +29,7 @@ public class SweetBerryJuiceItem extends Item {
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
-		return 40;
+		return 32;
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class SweetBerryJuiceItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		SweetBerryJamPlayerFinishesUsingItemProcedure
+		SweetBerryJuicePlayerFinishesUsingItemProcedure
 				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 		if (itemstack.isEmpty()) {
 			return retval;

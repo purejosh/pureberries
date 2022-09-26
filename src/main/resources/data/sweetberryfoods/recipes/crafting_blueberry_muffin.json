@@ -1,0 +1,42 @@
+{
+  "group": "muffin",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:milk_bucket"
+    },
+    "1": {
+      "item": "minecraft:milk_bucket"
+    },
+    "2": {
+      "item": "minecraft:milk_bucket"
+    },
+    "3": {
+      "item": "sweetberryfoods:blueberries"
+    },
+    "4": {
+      "item": "minecraft:egg"
+    },
+    "5": {
+      "item": "sweetberryfoods:blueberries"
+    },
+    "6": {
+      "item": "minecraft:wheat"
+    },
+    "7": {
+      "item": "minecraft:wheat"
+    },
+    "8": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "sweetberryfoods:blueberry_muffin",
+    "count": 4
+  }
+}

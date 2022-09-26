@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '0.12-SNAPSHOT'
+    id 'fabric-loom' version '1.0-SNAPSHOT'
 }
 
 sourceCompatibility = JavaVersion.VERSION_17
@@ -15,7 +15,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:0.14.9"
 
     //Fabric api
-    modImplementation "net.fabricmc.fabric-api:fabric-api:0.59.0+1.19.2"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.60.0+1.19.2"
 }
 
 processResources {

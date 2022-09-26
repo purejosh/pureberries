@@ -1,0 +1,10 @@
+{
+  "group": "sweet_berries",
+  "type": "minecraft:campfire_cooking",
+  "experience": 0,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "sweetberryfoods:blueberries"
+  },
+  "result": "sweetberryfoods:cooked_blueberries"
+}

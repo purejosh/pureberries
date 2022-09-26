@@ -6,7 +6,7 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 4,
-    "group": "",
+    "group": "muffin",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -28,13 +28,13 @@
         "value": "Items.SWEET_BERRIES"
       },
       {
-        "value": "Blocks.WHEAT"
+        "value": "Items.WHEAT"
       },
       {
-        "value": "Blocks.WHEAT"
+        "value": "Items.WHEAT"
       },
       {
-        "value": "Blocks.WHEAT"
+        "value": "Items.WHEAT"
       }
     ],
     "recipeReturnStack": {

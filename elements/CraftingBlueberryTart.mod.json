@@ -6,7 +6,7 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "",
+    "group": "pie",
     "recipeShapeless": true,
     "recipeSlots": [
       {
@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:CookedSweetBerries"
+        "value": "CUSTOM:Blueberries"
       },
       {
-        "value": "CUSTOM:CookedSweetBerries"
+        "value": "Items.SUGAR"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.GLASS_BOTTLE"
+        "value": ""
       },
       {
-        "value": "CUSTOM:CookedSweetBerries"
+        "value": "Items.EGG"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SweetBerryJuice"
+      "value": "CUSTOM:BlueberryTart"
     },
-    "name": "crafting_sweet_berry_jam",
+    "name": "crafting_blueberry_tart",
     "namespace": "mod"
   }
 }

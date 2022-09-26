@@ -1,6 +1,15 @@
 {
-  "item.sweetberryfoods.cooked_sweet_berries": "Cooked Sweet Berries",
+  "item.sweetberryfoods.blueberry_tart": "Blueberry Tart",
+  "item.sweetberryfoods.blueberry_juice": "Blueberry Juice",
   "item.sweetberryfoods.sweet_berry_juice": "Sweet Berry Juice",
+  "item.sweetberryfoods.blueberries": "Blueberries",
+  "item.sweetberryfoods.cooked_sweet_berries": "Cooked Sweet Berries",
+  "block.sweetberryfoods.blueberry_bush_plant_stage_0": "Blueberry Bush",
+  "block.sweetberryfoods.blueberry_bush_plant_stage_2": "Blueberry Bush",
   "item.sweetberryfoods.sweet_berry_muffin": "Sweet Berry Muffin",
-  "item.sweetberryfoods.sweet_berry_tart": "Sweet Berry Tart"
+  "block.sweetberryfoods.blueberry_bush_plant_stage_1": "Blueberry Bush",
+  "block.sweetberryfoods.blueberry_bush_plant_stage_3": "Blueberry Bush",
+  "item.sweetberryfoods.sweet_berry_tart": "Sweet Berry Tart",
+  "item.sweetberryfoods.cooked_blueberries": "Cooked Blueberries",
+  "item.sweetberryfoods.blueberry_muffin": "Blueberry Muffin"
 }

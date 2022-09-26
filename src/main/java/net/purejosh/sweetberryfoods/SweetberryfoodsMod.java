@@ -17,6 +17,9 @@ import org.apache.logging.log4j.LogManager;
 
 import net.purejosh.sweetberryfoods.init.SweetberryfoodsModProcedures;
 import net.purejosh.sweetberryfoods.init.SweetberryfoodsModItems;
+import net.purejosh.sweetberryfoods.init.SweetberryfoodsModItemExtensions;
+import net.purejosh.sweetberryfoods.init.SweetberryfoodsModFeatures;
+import net.purejosh.sweetberryfoods.init.SweetberryfoodsModBlocks;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -28,9 +31,14 @@ public class SweetberryfoodsMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing SweetberryfoodsMod");
 
+		SweetberryfoodsModBlocks.load();
 		SweetberryfoodsModItems.load();
 
+		SweetberryfoodsModFeatures.load();
+
 		SweetberryfoodsModProcedures.load();
+
+		SweetberryfoodsModItemExtensions.load();
 
 	}
 }
