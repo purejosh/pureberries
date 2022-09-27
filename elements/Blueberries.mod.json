@@ -32,6 +32,9 @@
     "onRightClickedOnBlock": {
       "name": "BlueberriesRightclickedOnBlock"
     },
+    "onFinishUsingItem": {
+      "name": "BlueberriesPlayerFinishesUsingItem"
+    },
     "isFood": true,
     "nutritionalValue": 2,
     "saturation": 0.4,

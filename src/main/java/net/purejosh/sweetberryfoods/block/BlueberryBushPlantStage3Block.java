@@ -2,6 +2,7 @@
 package net.purejosh.sweetberryfoods.block;
 
 import net.purejosh.sweetberryfoods.procedures.BlueberryBushPlantStage3PlantRightClickedProcedure;
+import net.purejosh.sweetberryfoods.procedures.BlueberryBushPlantMobplayerCollidesWithPlantProcedure;
 import net.purejosh.sweetberryfoods.init.SweetberryfoodsModBlocks;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -18,6 +19,7 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
@@ -32,7 +34,7 @@ import net.fabricmc.api.EnvType;
 public class BlueberryBushPlantStage3Block extends FlowerBlock {
 	public BlueberryBushPlantStage3Block() {
 		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.SWEET_BERRY_BUSH).instabreak()
-				.speedFactor(0.1f).jumpFactor(0.4f).noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
+				.noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
 		FlammableBlockRegistry.getDefaultInstance().add(this, 100, 60);
 	}
 
@@ -58,6 +60,13 @@ public class BlueberryBushPlantStage3Block extends FlowerBlock {
 		BlockPos blockpos = pos.below();
 		BlockState groundState = worldIn.getBlockState(blockpos);
 		return this.mayPlaceOn(groundState, worldIn, blockpos);
+	}
+
+	@Override
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
+		super.entityInside(blockstate, world, pos, entity);
+		BlueberryBushPlantMobplayerCollidesWithPlantProcedure
+				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 	}
 
 	@Override

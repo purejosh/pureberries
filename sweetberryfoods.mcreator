@@ -12,7 +12,7 @@
     {
       "name": "SweetBerryTart",
       "type": "item",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sweet_berry_tart",
@@ -21,7 +21,7 @@
     {
       "name": "SweetBerryMuffin",
       "type": "item",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sweet_berry_muffin",
@@ -30,7 +30,7 @@
     {
       "name": "SmeltingCookedSweetBerries",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smelting_cooked_sweet_berries",
@@ -39,7 +39,7 @@
     {
       "name": "SmokerCookedSweetBerries",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smoker_cooked_sweet_berries",
@@ -48,7 +48,7 @@
     {
       "name": "CampfireCookedSweetBerries",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "campfire_cooked_sweet_berries",
@@ -57,7 +57,7 @@
     {
       "name": "CraftingSweetBerryTart",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_sweet_berry_tart",
@@ -66,7 +66,7 @@
     {
       "name": "SweetBerryJuice",
       "type": "item",
-      "sortid": 5,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sweet_berry_juice",
@@ -75,7 +75,7 @@
     {
       "name": "PumpkinPie",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pumpkin_pie",
@@ -84,7 +84,7 @@
     {
       "name": "Blueberries",
       "type": "item",
-      "sortid": 2,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberries",
@@ -93,7 +93,7 @@
     {
       "name": "BlueberriesRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberries_rightclicked_on_block",
@@ -121,12 +121,12 @@
           }
         ]
       },
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "BlueberryBushUpdateTick",
       "type": "procedure",
-      "sortid": 17,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_bush_update_tick",
@@ -150,21 +150,21 @@
           }
         ]
       },
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "BlueberriesLootChestTaigaVillage",
       "type": "loottable",
-      "sortid": 25,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberries_loot_chest_taiga_village",
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "BlueberryBushPlantStage0",
       "type": "plant",
-      "sortid": 27,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_bush_plant_stage_0",
@@ -173,7 +173,7 @@
     {
       "name": "BlueberryBushPlantStage1",
       "type": "plant",
-      "sortid": 28,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_bush_plant_stage_1",
@@ -182,7 +182,7 @@
     {
       "name": "BlueberryBushPlantStage2",
       "type": "plant",
-      "sortid": 29,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_bush_plant_stage_2",
@@ -191,7 +191,7 @@
     {
       "name": "BlueberryBushPlantStage3",
       "type": "plant",
-      "sortid": 30,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_bush_plant_stage_3",
@@ -200,7 +200,7 @@
     {
       "name": "BlueberryBushPlantStage0PlantRightClicked",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_bush_plant_stage_0_plant_right_clicked",
@@ -228,12 +228,12 @@
           }
         ]
       },
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "BlueberryBushPlantStage1PlantRightClicked",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_bush_plant_stage_1_plant_right_clicked",
@@ -261,12 +261,12 @@
           }
         ]
       },
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "BlueberryBushPlantStage2PlantRightClicked",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_bush_plant_stage_2_plant_right_clicked",
@@ -294,12 +294,12 @@
           }
         ]
       },
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "BlueberryBushPlantStage3PlantRightClicked",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_bush_plant_stage_3_plant_right_clicked",
@@ -323,39 +323,39 @@
           }
         ]
       },
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "BlueberryBushPlantStage2Loot",
       "type": "loottable",
-      "sortid": 35,
+      "sortid": 26,
       "compiles": true,
       "locked_code": true,
       "registry_name": "blueberry_bush_plant_stage_2_loot",
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "BlueberryBushPlantStage3Loot",
       "type": "loottable",
-      "sortid": 36,
+      "sortid": 27,
       "compiles": true,
       "locked_code": true,
       "registry_name": "blueberry_bush_plant_stage_3_loot",
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "BlueberriesCompost",
       "type": "itemextension",
-      "sortid": 38,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberries_compost",
-      "path": "~/crops/blueberry bush"
+      "path": "~/crops/blueberry bush/procedures"
     },
     {
       "name": "CookedBlueberries",
       "type": "item",
-      "sortid": 39,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_blueberries",
@@ -364,7 +364,7 @@
     {
       "name": "BlueberryJuice",
       "type": "item",
-      "sortid": 40,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_juice",
@@ -373,7 +373,7 @@
     {
       "name": "BlueberryMuffin",
       "type": "item",
-      "sortid": 41,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_muffin",
@@ -382,7 +382,7 @@
     {
       "name": "BlueberryTart",
       "type": "item",
-      "sortid": 42,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueberry_tart",
@@ -391,7 +391,7 @@
     {
       "name": "SweetBerryJuicePlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sweet_berry_juice_player_finishes_using_item",
@@ -408,7 +408,7 @@
     {
       "name": "BlueberryJuicePlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 44,
+      "sortid": 30,
       "compiles": true,
       "locked_code": true,
       "registry_name": "blueberry_juice_player_finishes_using_item",
@@ -425,7 +425,7 @@
     {
       "name": "CampfireCookedBlueberries",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "campfire_cooked_blueberries",
@@ -434,7 +434,7 @@
     {
       "name": "CraftingBlueberryJuice",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_blueberry_juice",
@@ -443,7 +443,7 @@
     {
       "name": "CraftingSweetBerryJuice",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_sweet_berry_juice",
@@ -452,7 +452,7 @@
     {
       "name": "CraftingSweetBerryMuffin",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_sweet_berry_muffin",
@@ -461,7 +461,7 @@
     {
       "name": "CraftingBlueberryMuffin",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_blueberry_muffin",
@@ -470,7 +470,7 @@
     {
       "name": "CraftingBlueberryTart",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_blueberry_tart",
@@ -479,7 +479,7 @@
     {
       "name": "SmeltingCookedBlueberries",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smelting_cooked_blueberries",
@@ -488,11 +488,63 @@
     {
       "name": "SmokerCookedBlueberries",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smoker_cooked_blueberries",
       "path": "~/foods/blueberries/recipes"
+    },
+    {
+      "name": "BlueberryBushTag",
+      "type": "tag",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_bush_tag",
+      "path": "~/crops/blueberry bush/procedures"
+    },
+    {
+      "name": "BlueberryBushFallTag",
+      "type": "tag",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_bush_fall_tag",
+      "path": "~/crops/blueberry bush/procedures"
+    },
+    {
+      "name": "BlueberryBushPlantMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_bush_plant_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/crops/blueberry bush/procedures"
+    },
+    {
+      "name": "BlueberriesPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberries_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/crops/blueberry bush/procedures"
     }
   ],
   "variable_elements": [],
@@ -553,7 +605,12 @@
         "children": [
           {
             "name": "blueberry bush",
-            "children": []
+            "children": [
+              {
+                "name": "procedures",
+                "children": []
+              }
+            ]
           }
         ]
       }

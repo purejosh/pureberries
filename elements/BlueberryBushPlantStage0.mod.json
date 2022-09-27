@@ -76,8 +76,8 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 100,
     "fireSpreadSpeed": 60,
-    "jumpFactor": 0.4,
-    "speedFactor": 0.1,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
     "canBePlacedOn": [
       {
         "value": "Blocks.GRASS"
@@ -105,6 +105,9 @@
     "generateAtAnyHeight": false,
     "onTickUpdate": {
       "name": "BlueberryBushUpdateTick"
+    },
+    "onEntityCollides": {
+      "name": "BlueberryBushPlantMobplayerCollidesWithPlant"
     },
     "onRightClicked": {
       "name": "BlueberryBushPlantStage0PlantRightClicked"
