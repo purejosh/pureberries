@@ -18,6 +18,8 @@ public class BlueberryJuicePlayerFinishesUsingItemProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity _entity)
+			_entity.removeEffect(MobEffects.BLINDNESS);
+		if (entity instanceof LivingEntity _entity)
 			_entity.removeEffect(MobEffects.DARKNESS);
 	}
 }
