@@ -10,7 +10,7 @@ import net.minecraft.world.food.FoodProperties;
 public class SweetBerryMuffinItem extends Item {
 	public SweetBerryMuffinItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.7999999999999999f)
+				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f)
 
 						.build()));
 	}
