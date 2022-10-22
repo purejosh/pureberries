@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -37,7 +37,7 @@
     },
     "isFood": true,
     "nutritionalValue": 2,
-    "saturation": 0.12,
+    "saturation": 0.1,
     "eatResultItem": {
       "value": ""
     },

@@ -17,7 +17,7 @@ import net.minecraft.world.InteractionResult;
 public class BlueberriesItem extends Item {
 	public BlueberriesItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.12f)
+				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.1f)
 
 						.build()));
 	}

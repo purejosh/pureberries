@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -31,7 +31,7 @@
     "inventoryStackSize": 64,
     "isFood": true,
     "nutritionalValue": 8,
-    "saturation": 0.6,
+    "saturation": 0.30000000000000004,
     "eatResultItem": {
       "value": ""
     },

@@ -17,7 +17,7 @@ import net.minecraft.world.entity.LivingEntity;
 public class BlueberryJuiceItem extends Item {
 	public BlueberryJuiceItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(16).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).alwaysEat()
+				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.15f).alwaysEat()
 
 						.build()));
 	}

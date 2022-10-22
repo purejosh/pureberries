@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -34,7 +34,7 @@
     },
     "isFood": true,
     "nutritionalValue": 4,
-    "saturation": 0.30000000000000004,
+    "saturation": 0.15,
     "eatResultItem": {
       "value": "Items.GLASS_BOTTLE"
     },

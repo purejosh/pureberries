@@ -410,7 +410,7 @@
       "type": "procedure",
       "sortid": 30,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "blueberry_juice_player_finishes_using_item",
       "metadata": {
         "dependencies": [
@@ -619,7 +619,7 @@
   "workspaceSettings": {
     "modid": "sweetberryfoods",
     "modName": "Sweet Berry Foods",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "A simple, cleanly designed mod that adds new foods related to the sweet berry, with a focus on maintaining balance and vanilla mechanics. Now with custom berries!",
     "author": "purejosh",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/sweet-berry-foods-fabric-forge",
@@ -636,5 +636,5 @@
     "modElementsPackage": "net.purejosh.sweetberryfoods",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200341417
 }
