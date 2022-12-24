@@ -529,24 +529,6 @@
       "path": "~/crops/blueberry bush/procedures"
     },
     {
-      "name": "SweetBerryBiscut",
-      "type": "item",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sweet_berry_biscut",
-      "path": "~/foods/sweet berry"
-    },
-    {
-      "name": "CraftingSweetBerryBiscut",
-      "type": "recipe",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crafting_sweet_berry_biscut",
-      "path": "~/foods/sweet berry/recipes"
-    },
-    {
       "name": "CraftingCookie",
       "type": "recipe",
       "sortid": 52,
@@ -600,15 +582,6 @@
       "path": "~/foods/sweet berry"
     },
     {
-      "name": "BlueberryBiscut",
-      "type": "item",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blueberry_biscut",
-      "path": "~/foods/blueberries"
-    },
-    {
       "name": "HoneyDippedBlueberries",
       "type": "item",
       "sortid": 5,
@@ -625,15 +598,6 @@
       "locked_code": false,
       "registry_name": "cocoa_covered_blueberries",
       "path": "~/foods/blueberries"
-    },
-    {
-      "name": "CraftingBlueberryBiscut",
-      "type": "recipe",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crafting_blueberry_biscut",
-      "path": "~/foods/blueberries/recipes"
     },
     {
       "name": "CraftingHoneyDippedBlueberries",
@@ -751,35 +715,71 @@
       "locked_code": false,
       "registry_name": "crafting_pumpkin_pie",
       "path": "~/foods/sweet berry/recipes"
+    },
+    {
+      "name": "CraftingSweetBerryBiscuit",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_sweet_berry_biscuit",
+      "path": "~/foods/sweet berry/recipes"
+    },
+    {
+      "name": "SweetBerryBiscuit",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_biscuit",
+      "path": "~/foods/sweet berry"
+    },
+    {
+      "name": "BlueberryBiscuit",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_biscuit",
+      "path": "~/foods/blueberries"
+    },
+    {
+      "name": "CraftingBlueberryBiscuit",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_blueberry_biscuit",
+      "path": "~/foods/blueberries/recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sweetberryfoods.blueberry_tart": "Blueberry Tart",
+      "item.sweetberryfoods.blueberry_biscuit": "Blueberry Biscuit",
       "item.sweetberryfoods.sweet_berry_jam_sandwich": "Sweet Berry Jam Sandwich",
       "item.sweetberryfoods.blueberry_juice": "Blueberry Juice",
       "item.sweetberryfoods.cocoa_covered_blueberries": "Cocoa Covered Blueberries",
-      "item.sweetberryfoods.sweet_berry_juice": "Sweet Berry Juice",
       "item.sweetberryfoods.honey_dipped_blueberries": "Honey Dipped Blueberries",
-      "item.sweetberryfoods.honey_dipped_sweet_berries": "Honey Dipped Sweet Berries",
       "item.sweetberryfoods.blueberry_jam": "Blueberry Jam",
-      "item.sweetberryfoods.blueberry_jam_sandwich": "Blueberry Jam Sandwich",
       "item.sweetberryfoods.blueberries": "Blueberries",
       "item.sweetberryfoods.cooked_sweet_berries": "Cooked Sweet Berries",
       "block.sweetberryfoods.blueberry_bush_plant_stage_0": "Blueberry Bush",
-      "item.sweetberryfoods.sweet_berry_biscut": "Sweet Berry Biscut",
       "block.sweetberryfoods.blueberry_bush_plant_stage_2": "Blueberry Bush",
-      "item.sweetberryfoods.sweet_berry_muffin": "Sweet Berry Muffin",
       "block.sweetberryfoods.blueberry_bush_plant_stage_1": "Blueberry Bush",
       "block.sweetberryfoods.blueberry_bush_plant_stage_3": "Blueberry Bush",
+      "item.sweetberryfoods.cooked_blueberries": "Cooked Blueberries",
+      "item.sweetberryfoods.sweet_berry_biscuit": "Sweet Berry Biscuit",
+      "item.sweetberryfoods.blueberry_tart": "Blueberry Tart",
+      "item.sweetberryfoods.sweet_berry_juice": "Sweet Berry Juice",
+      "item.sweetberryfoods.honey_dipped_sweet_berries": "Honey Dipped Sweet Berries",
+      "item.sweetberryfoods.blueberry_jam_sandwich": "Blueberry Jam Sandwich",
+      "item.sweetberryfoods.sweet_berry_muffin": "Sweet Berry Muffin",
       "item.sweetberryfoods.sweet_berry_jam": "Sweet Berry Jam",
       "item.sweetberryfoods.sweet_berry_tart": "Sweet Berry Tart",
-      "item.sweetberryfoods.cooked_blueberries": "Cooked Blueberries",
       "item.sweetberryfoods.blueberry_muffin": "Blueberry Muffin",
-      "item.sweetberryfoods.cocoa_covered_sweet_berries": "Cocoa Covered Sweet Berries",
-      "item.sweetberryfoods.blueberry_biscut": "Blueberry Biscut"
+      "item.sweetberryfoods.cocoa_covered_sweet_berries": "Cocoa Covered Sweet Berries"
     }
   },
   "foldersRoot": {

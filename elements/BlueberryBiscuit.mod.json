@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sweetberrybiscut",
+    "texture": "blueberrybiscut",
     "customModelName": "Normal",
-    "name": "Sweet Berry Biscut",
+    "name": "Blueberry Biscuit",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "FOOD"

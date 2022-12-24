@@ -22,7 +22,7 @@
         "value": "Items.WHEAT"
       },
       {
-        "value": "CUSTOM:Blueberries"
+        "value": "Items.SWEET_BERRIES"
       },
       {
         "value": "Items.WHEAT"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlueberryBiscut"
+      "value": "CUSTOM:SweetBerryBiscuit"
     },
-    "name": "crafting_blueberry_biscut",
+    "name": "crafting_sweet_berry_biscuit",
     "namespace": "mod"
   }
 }

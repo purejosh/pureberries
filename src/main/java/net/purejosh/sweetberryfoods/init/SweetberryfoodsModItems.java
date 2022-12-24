@@ -9,7 +9,7 @@ import net.purejosh.sweetberryfoods.item.SweetBerryMuffinItem;
 import net.purejosh.sweetberryfoods.item.SweetBerryJuiceItem;
 import net.purejosh.sweetberryfoods.item.SweetBerryJamSandwichItem;
 import net.purejosh.sweetberryfoods.item.SweetBerryJamItem;
-import net.purejosh.sweetberryfoods.item.SweetBerryBiscutItem;
+import net.purejosh.sweetberryfoods.item.SweetBerryBiscuitItem;
 import net.purejosh.sweetberryfoods.item.HoneyDippedSweetBerriesItem;
 import net.purejosh.sweetberryfoods.item.HoneyDippedBlueberriesItem;
 import net.purejosh.sweetberryfoods.item.CookedSweetBerriesItem;
@@ -21,7 +21,7 @@ import net.purejosh.sweetberryfoods.item.BlueberryMuffinItem;
 import net.purejosh.sweetberryfoods.item.BlueberryJuiceItem;
 import net.purejosh.sweetberryfoods.item.BlueberryJamSandwichItem;
 import net.purejosh.sweetberryfoods.item.BlueberryJamItem;
-import net.purejosh.sweetberryfoods.item.BlueberryBiscutItem;
+import net.purejosh.sweetberryfoods.item.BlueberryBiscuitItem;
 import net.purejosh.sweetberryfoods.item.BlueberriesItem;
 import net.purejosh.sweetberryfoods.SweetberryfoodsMod;
 
@@ -44,8 +44,6 @@ public class SweetberryfoodsModItems {
 	public static Item BLUEBERRY_MUFFIN;
 	public static Item SWEET_BERRY_TART;
 	public static Item BLUEBERRY_TART;
-	public static Item SWEET_BERRY_BISCUT;
-	public static Item BLUEBERRY_BISCUT;
 	public static Item SWEET_BERRY_JAM;
 	public static Item BLUEBERRY_JAM;
 	public static Item SWEET_BERRY_JAM_SANDWICH;
@@ -54,6 +52,8 @@ public class SweetberryfoodsModItems {
 	public static Item BLUEBERRY_BUSH_PLANT_STAGE_1;
 	public static Item BLUEBERRY_BUSH_PLANT_STAGE_2;
 	public static Item BLUEBERRY_BUSH_PLANT_STAGE_3;
+	public static Item SWEET_BERRY_BISCUIT;
+	public static Item BLUEBERRY_BISCUIT;
 
 	public static void load() {
 		BLUEBERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberries"), new BlueberriesItem());
@@ -80,10 +80,6 @@ public class SweetberryfoodsModItems {
 		SWEET_BERRY_TART = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_tart"),
 				new SweetBerryTartItem());
 		BLUEBERRY_TART = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_tart"), new BlueberryTartItem());
-		SWEET_BERRY_BISCUT = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_biscut"),
-				new SweetBerryBiscutItem());
-		BLUEBERRY_BISCUT = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_biscut"),
-				new BlueberryBiscutItem());
 		SWEET_BERRY_JAM = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_jam"),
 				new SweetBerryJamItem());
 		BLUEBERRY_JAM = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_jam"), new BlueberryJamItem());
@@ -103,5 +99,9 @@ public class SweetberryfoodsModItems {
 		BLUEBERRY_BUSH_PLANT_STAGE_3 = Registry.register(Registry.ITEM,
 				new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_3"),
 				new BlockItem(SweetberryfoodsModBlocks.BLUEBERRY_BUSH_PLANT_STAGE_3, new Item.Properties().tab(null)));
+		SWEET_BERRY_BISCUIT = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_biscuit"),
+				new SweetBerryBiscuitItem());
+		BLUEBERRY_BISCUIT = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_biscuit"),
+				new BlueberryBiscuitItem());
 	}
 }

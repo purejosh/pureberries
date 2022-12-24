@@ -42,9 +42,9 @@ public class BlueberriesPlayerFinishesUsingItemProcedure {
 		if (entity instanceof ServerPlayer _serverPlayer)
 			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_muffin")});
 		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_biscut")});
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_biscuit")});
 		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_biscut")});
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_biscuit")});
 		if (entity instanceof ServerPlayer _serverPlayer)
 			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_honey_dipped_sweet_berries")});
 		if (entity instanceof ServerPlayer _serverPlayer)
