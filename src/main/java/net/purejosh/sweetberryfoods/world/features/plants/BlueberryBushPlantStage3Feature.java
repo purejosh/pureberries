@@ -42,8 +42,8 @@ public class BlueberryBushPlantStage3Feature extends RandomPatchFeature {
 				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
 						new SimpleBlockConfiguration(
 								BlockStateProvider.simple(SweetberryfoodsModBlocks.BLUEBERRY_BUSH_PLANT_STAGE_3.defaultBlockState())),
-						List.of(), 12));
-		PLACED_FEATURE = PlacementUtils.register("sweetberryfoods:blueberry_bush_plant_stage_3", CONFIGURED_FEATURE, List.of(CountPlacement.of(1),
+						List.of(), 80));
+		PLACED_FEATURE = PlacementUtils.register("sweetberryfoods:blueberry_bush_plant_stage_3", CONFIGURED_FEATURE, List.of(CountPlacement.of(3),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}

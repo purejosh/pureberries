@@ -98,7 +98,7 @@
         "value": "Blocks.FARMLAND"
       }
     ],
-    "frequencyOnChunks": 1,
+    "frequencyOnChunks": 3,
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -134,7 +134,7 @@
         "value": "mutated_taiga"
       }
     ],
-    "patchSize": 12,
+    "patchSize": 80,
     "generateAtAnyHeight": false,
     "onEntityCollides": {
       "name": "BlueberryBushPlantMobplayerCollidesWithPlant"
