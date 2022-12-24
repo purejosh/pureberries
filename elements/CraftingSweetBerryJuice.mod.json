@@ -2,27 +2,22 @@
   "_fv": 34,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
-    "xpReward": 0.0,
-    "cookingTime": 200,
+    "recipeType": "Smoking",
+    "xpReward": 0.1,
+    "cookingTime": 100,
     "recipeRetstackSize": 1,
-    "group": "juice",
-    "recipeShapeless": true,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CookedSweetBerries"
-      },
-      {
-        "value": "CUSTOM:CookedSweetBerries"
+    "group": "sweet_berries",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:Blueberries"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedBlueberries"
+    },
+    "name": "smoker_cooked_blueberries",
+    "namespace": "mod"
+  }
+}OM:CookedSweetBerries"
       },
       {
         "value": ""

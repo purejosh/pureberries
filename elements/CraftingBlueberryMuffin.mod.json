@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
-    "group": "muffin",
-    "recipeShapeless": false,
+    "recipeRetstackSize": 1,
+    "group": "pie",
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.MILK_BUCKET"
+        "value": ""
       },
       {
-        "value": "Items.MILK_BUCKET"
+        "value": ""
       },
       {
-        "value": "Items.MILK_BUCKET"
+        "value": ""
       },
       {
         "value": "CUSTOM:Blueberries"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": "Items.EGG"
       },
       {
-        "value": "CUSTOM:Blueberries"
-      },
-      {
-        "value": "Items.WHEAT"
-      },
-      {
-        "value": "Items.WHEAT"
-      },
-      {
-        "value": "Items.WHEAT"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlueberryMuffin"
+      "value": "CUSTOM:BlueberryTart"
     },
-    "name": "crafting_blueberry_muffin",
+    "name": "crafting_blueberry_tart",
     "namespace": "mod"
   }
 }

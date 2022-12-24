@@ -5,6 +5,7 @@
 package net.purejosh.sweetberryfoods.init;
 
 import net.purejosh.sweetberryfoods.procedures.SweetBerryJuicePlayerFinishesUsingItemProcedure;
+import net.purejosh.sweetberryfoods.procedures.HoneyDippedSweetBerriesPlayerFinishesUsingItemProcedure;
 import net.purejosh.sweetberryfoods.procedures.BlueberryJuicePlayerFinishesUsingItemProcedure;
 import net.purejosh.sweetberryfoods.procedures.BlueberryBushUpdateTickProcedure;
 import net.purejosh.sweetberryfoods.procedures.BlueberryBushPlantStage3PlantRightClickedProcedure;
@@ -28,5 +29,6 @@ public class SweetberryfoodsModProcedures {
 		new BlueberryJuicePlayerFinishesUsingItemProcedure();
 		new BlueberryBushPlantMobplayerCollidesWithPlantProcedure();
 		new BlueberriesPlayerFinishesUsingItemProcedure();
+		new HoneyDippedSweetBerriesPlayerFinishesUsingItemProcedure();
 	}
 }

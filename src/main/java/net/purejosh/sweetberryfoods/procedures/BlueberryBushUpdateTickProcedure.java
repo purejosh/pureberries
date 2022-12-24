@@ -36,7 +36,7 @@ public class BlueberryBushUpdateTickProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		if (!world.isClientSide()) {
-			if (Math.random() <= 0.3 && world.getMaxLocalRawBrightness(new BlockPos(x, y, z)) >= 10
+			if (Math.random() <= 0.25 && world.getMaxLocalRawBrightness(new BlockPos(x, y, z)) >= 10
 					&& world.getBlockState(new BlockPos(x, y + 1, z)).canOcclude() == false) {
 				if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == SweetberryfoodsModBlocks.BLUEBERRY_BUSH_PLANT_STAGE_0
 						&& SweetberryfoodsModBlocks.BLUEBERRY_BUSH_PLANT_STAGE_1.defaultBlockState().canSurvive(world, new BlockPos(x, y, z))) {

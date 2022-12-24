@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "covered_berries",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CookedSweetBerries"
+      },
+      {
+        "value": "CUSTOM:CookedSweetBerries"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": "CUSTOM:CookedSweetBerries"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CocoaCoveredSweetBerries"
+    },
+    "name": "crafting_cocoa_covered_sweet_berries",
+    "namespace": "mod"
+  }
+}

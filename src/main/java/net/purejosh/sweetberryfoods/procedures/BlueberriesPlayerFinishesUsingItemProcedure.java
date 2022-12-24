@@ -18,28 +18,48 @@ public class BlueberriesPlayerFinishesUsingItemProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_juice")});
-		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_muffin")});
-		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_tart")});
-		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_juice")});
-		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_muffin")});
-		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_tart")});
-		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:campfire_cooked_blueberries")});
-		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:campfire_cooked_sweet_berries")});
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:smelting_cooked_sweet_berries")});
 		if (entity instanceof ServerPlayer _serverPlayer)
 			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:smelting_cooked_blueberries")});
 		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:smelting_cooked_sweet_berries")});
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:smoker_cooked_sweet_berries")});
 		if (entity instanceof ServerPlayer _serverPlayer)
 			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:smoker_cooked_blueberries")});
 		if (entity instanceof ServerPlayer _serverPlayer)
-			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:smoker_cooked_sweet_berries")});
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:campfire_cooked_sweet_berries")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:campfire_cooked_blueberries")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_juice")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_juice")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_tart")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_tart")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_muffin")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_muffin")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_biscut")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_biscut")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_honey_dipped_sweet_berries")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_honey_dipped_blueberries")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_cocoa_covered_sweet_berries")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_cocoa_covered_blueberries")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_jam")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_jam")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_sweet_berry_jam_sandwich")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("sweetberryfoods:crafting_blueberry_jam_sandwich")});
 	}
 }

@@ -1,0 +1,16 @@
+{
+  "group": "berry_sandwich",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sweetberryfoods:blueberry_jam"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "item": "sweetberryfoods:blueberry_jam_sandwich",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "covered_berries",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sweetberryfoods:cooked_blueberries"
+    },
+    {
+      "item": "sweetberryfoods:cooked_blueberries"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "sweetberryfoods:cooked_blueberries"
+    }
+  ],
+  "result": {
+    "item": "sweetberryfoods:cocoa_covered_blueberries",
+    "count": 3
+  }
+}
