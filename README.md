@@ -8,7 +8,7 @@ Get the latest download for your mod loader at [CurseForge](https://www.cursefor
 
 ## Issues or Suggestions
 
-Please open an issue in Github, and choose [Bug](https://github.com/purejosh/sweetberryfoods/issues) or [Suggestion](https://github.com/purejosh/sweetberryfoods/issues).
+Please open an issue in Github, and choose [Bug](https://github.com/purejosh/sweetberryfoods/issues) or [Suggestion](https://github.com/purejosh/sweetberryfoods/issues) or [Modrinth](https://modrinth.com/mod/sweet-berry-foods).
 
 ## Need help? 
 
