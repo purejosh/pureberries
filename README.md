@@ -4,11 +4,11 @@ A simple, cleanly designed mod that adds new foods related to the sweet berry, w
 
 ## Download
 
-Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sweet-berry-foods-fabric-forge).
+Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sweet-berry-foods-fabric-forge) or [Modrinth](https://modrinth.com/mod/sweet-berry-foods).
 
 ## Issues or Suggestions
 
-Please open an issue in Github, and choose [Bug](https://github.com/purejosh/sweetberryfoods/issues) or [Suggestion](https://github.com/purejosh/sweetberryfoods/issues) or [Modrinth](https://modrinth.com/mod/sweet-berry-foods).
+Please open an issue in Github, and choose [Bug](https://github.com/purejosh/sweetberryfoods/issues) or [Suggestion](https://github.com/purejosh/sweetberryfoods/issues).
 
 ## Need help? 
 
