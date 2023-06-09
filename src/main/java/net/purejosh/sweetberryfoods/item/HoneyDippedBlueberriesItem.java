@@ -13,10 +13,9 @@ import net.minecraft.world.entity.LivingEntity;
 
 public class HoneyDippedBlueberriesItem extends Item {
 	public HoneyDippedBlueberriesItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.15f).alwaysEat()
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.15f).alwaysEat()
 
-						.build()));
+				.build()));
 	}
 
 	@Override
@@ -31,8 +30,7 @@ public class HoneyDippedBlueberriesItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		HoneyDippedSweetBerriesPlayerFinishesUsingItemProcedure
-				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		HoneyDippedSweetBerriesPlayerFinishesUsingItemProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 		return retval;
 	}
 }

@@ -16,10 +16,9 @@ import net.minecraft.world.entity.LivingEntity;
 
 public class SweetBerryJuiceItem extends Item {
 	public SweetBerryJuiceItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(16).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.15f).alwaysEat()
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(16).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.15f).alwaysEat()
 
-						.build()));
+				.build()));
 	}
 
 	@Override
@@ -40,8 +39,7 @@ public class SweetBerryJuiceItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		SweetBerryJuicePlayerFinishesUsingItemProcedure
-				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		SweetBerryJuicePlayerFinishesUsingItemProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 		if (itemstack.isEmpty()) {
 			return retval;
 		} else {

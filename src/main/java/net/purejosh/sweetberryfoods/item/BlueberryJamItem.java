@@ -14,10 +14,9 @@ import net.minecraft.world.entity.LivingEntity;
 
 public class BlueberryJamItem extends Item {
 	public BlueberryJamItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.15f)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.15f)
 
-						.build()));
+				.build()));
 	}
 
 	@Override

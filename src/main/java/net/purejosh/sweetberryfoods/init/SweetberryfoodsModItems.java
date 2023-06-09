@@ -57,51 +57,31 @@ public class SweetberryfoodsModItems {
 
 	public static void load() {
 		BLUEBERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberries"), new BlueberriesItem());
-		COOKED_SWEET_BERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "cooked_sweet_berries"),
-				new CookedSweetBerriesItem());
-		COOKED_BLUEBERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "cooked_blueberries"),
-				new CookedBlueberriesItem());
-		HONEY_DIPPED_SWEET_BERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "honey_dipped_sweet_berries"),
-				new HoneyDippedSweetBerriesItem());
-		HONEY_DIPPED_BLUEBERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "honey_dipped_blueberries"),
-				new HoneyDippedBlueberriesItem());
-		COCOA_COVERED_SWEET_BERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "cocoa_covered_sweet_berries"),
-				new CocoaCoveredSweetBerriesItem());
-		COCOA_COVERED_BLUEBERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "cocoa_covered_blueberries"),
-				new CocoaCoveredBlueberriesItem());
-		SWEET_BERRY_JUICE = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_juice"),
-				new SweetBerryJuiceItem());
-		BLUEBERRY_JUICE = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_juice"),
-				new BlueberryJuiceItem());
-		SWEET_BERRY_MUFFIN = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_muffin"),
-				new SweetBerryMuffinItem());
-		BLUEBERRY_MUFFIN = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_muffin"),
-				new BlueberryMuffinItem());
-		SWEET_BERRY_TART = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_tart"),
-				new SweetBerryTartItem());
+		COOKED_SWEET_BERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "cooked_sweet_berries"), new CookedSweetBerriesItem());
+		COOKED_BLUEBERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "cooked_blueberries"), new CookedBlueberriesItem());
+		HONEY_DIPPED_SWEET_BERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "honey_dipped_sweet_berries"), new HoneyDippedSweetBerriesItem());
+		HONEY_DIPPED_BLUEBERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "honey_dipped_blueberries"), new HoneyDippedBlueberriesItem());
+		COCOA_COVERED_SWEET_BERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "cocoa_covered_sweet_berries"), new CocoaCoveredSweetBerriesItem());
+		COCOA_COVERED_BLUEBERRIES = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "cocoa_covered_blueberries"), new CocoaCoveredBlueberriesItem());
+		SWEET_BERRY_JUICE = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_juice"), new SweetBerryJuiceItem());
+		BLUEBERRY_JUICE = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_juice"), new BlueberryJuiceItem());
+		SWEET_BERRY_MUFFIN = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_muffin"), new SweetBerryMuffinItem());
+		BLUEBERRY_MUFFIN = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_muffin"), new BlueberryMuffinItem());
+		SWEET_BERRY_TART = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_tart"), new SweetBerryTartItem());
 		BLUEBERRY_TART = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_tart"), new BlueberryTartItem());
-		SWEET_BERRY_JAM = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_jam"),
-				new SweetBerryJamItem());
+		SWEET_BERRY_JAM = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_jam"), new SweetBerryJamItem());
 		BLUEBERRY_JAM = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_jam"), new BlueberryJamItem());
-		SWEET_BERRY_JAM_SANDWICH = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_jam_sandwich"),
-				new SweetBerryJamSandwichItem());
-		BLUEBERRY_JAM_SANDWICH = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_jam_sandwich"),
-				new BlueberryJamSandwichItem());
-		BLUEBERRY_BUSH_PLANT_STAGE_0 = Registry.register(Registry.ITEM,
-				new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_0"),
+		SWEET_BERRY_JAM_SANDWICH = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_jam_sandwich"), new SweetBerryJamSandwichItem());
+		BLUEBERRY_JAM_SANDWICH = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_jam_sandwich"), new BlueberryJamSandwichItem());
+		BLUEBERRY_BUSH_PLANT_STAGE_0 = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_0"),
 				new BlockItem(SweetberryfoodsModBlocks.BLUEBERRY_BUSH_PLANT_STAGE_0, new Item.Properties().tab(null)));
-		BLUEBERRY_BUSH_PLANT_STAGE_1 = Registry.register(Registry.ITEM,
-				new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_1"),
+		BLUEBERRY_BUSH_PLANT_STAGE_1 = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_1"),
 				new BlockItem(SweetberryfoodsModBlocks.BLUEBERRY_BUSH_PLANT_STAGE_1, new Item.Properties().tab(null)));
-		BLUEBERRY_BUSH_PLANT_STAGE_2 = Registry.register(Registry.ITEM,
-				new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_2"),
+		BLUEBERRY_BUSH_PLANT_STAGE_2 = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_2"),
 				new BlockItem(SweetberryfoodsModBlocks.BLUEBERRY_BUSH_PLANT_STAGE_2, new Item.Properties().tab(null)));
-		BLUEBERRY_BUSH_PLANT_STAGE_3 = Registry.register(Registry.ITEM,
-				new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_3"),
+		BLUEBERRY_BUSH_PLANT_STAGE_3 = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_3"),
 				new BlockItem(SweetberryfoodsModBlocks.BLUEBERRY_BUSH_PLANT_STAGE_3, new Item.Properties().tab(null)));
-		SWEET_BERRY_BISCUIT = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_biscuit"),
-				new SweetBerryBiscuitItem());
-		BLUEBERRY_BISCUIT = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_biscuit"),
-				new BlueberryBiscuitItem());
+		SWEET_BERRY_BISCUIT = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "sweet_berry_biscuit"), new SweetBerryBiscuitItem());
+		BLUEBERRY_BISCUIT = Registry.register(Registry.ITEM, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_biscuit"), new BlueberryBiscuitItem());
 	}
 }

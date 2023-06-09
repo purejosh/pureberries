@@ -16,10 +16,9 @@ import net.minecraft.world.InteractionResult;
 
 public class BlueberriesItem extends Item {
 	public BlueberriesItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.1f)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.1f)
 
-						.build()));
+				.build()));
 	}
 
 	@Override
@@ -34,16 +33,14 @@ public class BlueberriesItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		BlueberriesPlayerFinishesUsingItemProcedure
-				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		BlueberriesPlayerFinishesUsingItemProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 		return retval;
 	}
 
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		InteractionResult retval = super.useOn(context);
-		BlueberriesRightclickedOnBlockProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder()
-				.put("world", context.getLevel()).put("x", context.getClickedPos().getX()).put("y", context.getClickedPos().getY())
+		BlueberriesRightclickedOnBlockProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("world", context.getLevel()).put("x", context.getClickedPos().getX()).put("y", context.getClickedPos().getY())
 				.put("z", context.getClickedPos().getZ()).put("entity", context.getPlayer()).build());
 		return retval;
 	}

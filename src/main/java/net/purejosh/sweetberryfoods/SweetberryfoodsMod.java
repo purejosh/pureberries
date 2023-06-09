@@ -21,9 +21,6 @@ import net.purejosh.sweetberryfoods.init.SweetberryfoodsModItemExtensions;
 import net.purejosh.sweetberryfoods.init.SweetberryfoodsModFeatures;
 import net.purejosh.sweetberryfoods.init.SweetberryfoodsModBlocks;
 
-import net.minecraft.nbt.CompoundTag;
-
-import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.api.ModInitializer;
 
 public class SweetberryfoodsMod implements ModInitializer {
@@ -43,11 +40,5 @@ public class SweetberryfoodsMod implements ModInitializer {
 
 		SweetberryfoodsModItemExtensions.load();
 
-		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
-			if (handler.getPlayer().getExtraCustomData().getCompound("PlayerPersisted").isEmpty()) {
-				handler.getPlayer().getExtraCustomData().put("PlayerPersisted", new CompoundTag());
-			}
-			SweetberryfoodsMod.LOGGER.info(handler.getPlayer().getExtraCustomData());
-		});
 	}
 }

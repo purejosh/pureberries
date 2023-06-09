@@ -20,13 +20,11 @@ import java.util.function.Predicate;
 
 public class SweetberryfoodsModFeatures {
 	public static void load() {
-		register("blueberry_bush_plant_stage_3", BlueberryBushPlantStage3Feature.feature(), BlueberryBushPlantStage3Feature.GENERATE_BIOMES,
-				GenerationStep.Decoration.VEGETAL_DECORATION);
+		register("blueberry_bush_plant_stage_3", BlueberryBushPlantStage3Feature.feature(), BlueberryBushPlantStage3Feature.GENERATE_BIOMES, GenerationStep.Decoration.VEGETAL_DECORATION);
 	}
 
 	private static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {
 		Registry.register(Registry.FEATURE, new ResourceLocation(SweetberryfoodsMod.MODID, registryName), feature);
-		BiomeModifications.addFeature(biomes, genStep,
-				ResourceKey.create(Registry.PLACED_FEATURE_REGISTRY, new ResourceLocation(SweetberryfoodsMod.MODID, registryName)));
+		BiomeModifications.addFeature(biomes, genStep, ResourceKey.create(Registry.PLACED_FEATURE_REGISTRY, new ResourceLocation(SweetberryfoodsMod.MODID, registryName)));
 	}
 }

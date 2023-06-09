@@ -36,8 +36,7 @@ import net.fabricmc.api.EnvType;
 
 public class BlueberryBushPlantStage1Block extends FlowerBlock {
 	public BlueberryBushPlantStage1Block() {
-		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT).randomTicks().sound(SoundType.SWEET_BERRY_BUSH)
-				.instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
+		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT).randomTicks().sound(SoundType.SWEET_BERRY_BUSH).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
 		FlammableBlockRegistry.getDefaultInstance().add(this, 100, 60);
 	}
 
@@ -54,8 +53,7 @@ public class BlueberryBushPlantStage1Block extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT) || groundState.is(Blocks.COARSE_DIRT)
-				|| groundState.is(Blocks.PODZOL) || groundState.is(Blocks.ROOTED_DIRT) || groundState.is(Blocks.FARMLAND);
+		return groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT) || groundState.is(Blocks.COARSE_DIRT) || groundState.is(Blocks.PODZOL) || groundState.is(Blocks.ROOTED_DIRT) || groundState.is(Blocks.FARMLAND);
 	}
 
 	@Override
@@ -68,22 +66,19 @@ public class BlueberryBushPlantStage1Block extends FlowerBlock {
 	@Override
 	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
-		BlueberryBushUpdateTickProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", pos.getX())
-				.put("y", pos.getY()).put("z", pos.getZ()).put("world", world).build());
+		BlueberryBushUpdateTickProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", pos.getX()).put("y", pos.getY()).put("z", pos.getZ()).put("world", world).build());
 	}
 
 	@Override
 	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
 		super.entityInside(blockstate, world, pos, entity);
-		BlueberryBushPlantMobplayerCollidesWithPlantProcedure
-				.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		BlueberryBushPlantMobplayerCollidesWithPlantProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
 	}
 
 	@Override
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
-		BlueberryBushPlantStage1PlantRightClickedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder()
-				.put("x", pos.getX()).put("y", pos.getY()).put("z", pos.getZ()).put("world", world).put("entity", entity).build());
+		BlueberryBushPlantStage1PlantRightClickedProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("x", pos.getX()).put("y", pos.getY()).put("z", pos.getZ()).put("world", world).put("entity", entity).build());
 		return InteractionResult.SUCCESS;
 	}
 

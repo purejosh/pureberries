@@ -55,15 +55,10 @@ public class BlueberriesRightclickedOnBlockProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == SweetberryfoodsModItems.BLUEBERRIES
-				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)
-						.getItem() == SweetberryfoodsModItems.BLUEBERRIES) {
-			if (((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.GRASS_BLOCK
-					|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.DIRT
-					|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.COARSE_DIRT
-					|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.PODZOL
-					|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.ROOTED_DIRT
-					|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.FARMLAND)
-					&& (world.getBlockState(new BlockPos(x, y + 1, z))).getMaterial() == net.minecraft.world.level.material.Material.AIR) {
+				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == SweetberryfoodsModItems.BLUEBERRIES) {
+			if (((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.GRASS_BLOCK || (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.DIRT || (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.COARSE_DIRT
+					|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.PODZOL || (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.ROOTED_DIRT
+					|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.FARMLAND) && (world.getBlockState(new BlockPos(x, y + 1, z))).getMaterial() == net.minecraft.world.level.material.Material.AIR) {
 				world.setBlock(new BlockPos(x, y + 1, z), SweetberryfoodsModBlocks.BLUEBERRY_BUSH_PLANT_STAGE_0.defaultBlockState(), 3);
 				if (!world.isClientSide()) {
 					if (world instanceof Level _level) {
@@ -74,8 +69,7 @@ public class BlueberriesRightclickedOnBlockProcedure {
 						}
 					}
 				}
-				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-						.getItem() == SweetberryfoodsModItems.BLUEBERRIES) {
+				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == SweetberryfoodsModItems.BLUEBERRIES) {
 					if (entity instanceof LivingEntity _entity)
 						_entity.swing(InteractionHand.MAIN_HAND, true);
 				} else {
@@ -87,14 +81,13 @@ public class BlueberriesRightclickedOnBlockProcedure {
 						if (_ent instanceof ServerPlayer _serverPlayer) {
 							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
 						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null && Minecraft
-									.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
+							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 						}
 						return false;
 					}
 				}.checkGamemode(entity))) {
-					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-							.getItem() == SweetberryfoodsModItems.BLUEBERRIES) {
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == SweetberryfoodsModItems.BLUEBERRIES) {
 						((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).shrink(1);
 					} else {
 						((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).shrink(1);

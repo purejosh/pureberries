@@ -9,10 +9,9 @@ import net.minecraft.world.food.FoodProperties;
 
 public class BlueberryBiscuitItem extends Item {
 	public BlueberryBiscuitItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.1f)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.1f)
 
-						.build()));
+				.build()));
 	}
 
 	@Override

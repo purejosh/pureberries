@@ -60,29 +60,24 @@ public class BlueberryBushPlantStage3PlantRightClickedProcedure {
 		if (!world.isClientSide()) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, new BlockPos(x + 0.5, y + 0.5, z + 0.5), SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1,
-							1);
+					_level.playSound(null, new BlockPos(x + 0.5, y + 0.5, z + 0.5), SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1, 1);
 				} else {
-					_level.playLocalSound((x + 0.5), (y + 0.5), (z + 0.5), SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1, 1,
-							false);
+					_level.playLocalSound((x + 0.5), (y + 0.5), (z + 0.5), SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1, 1, false);
 				}
 			}
 			if (world instanceof Level _level && !_level.isClientSide()) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.6), (z + 0.5),
-						new ItemStack(SweetberryfoodsModItems.BLUEBERRIES));
+				ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.6), (z + 0.5), new ItemStack(SweetberryfoodsModItems.BLUEBERRIES));
 				entityToSpawn.setPickUpDelay(10);
 				_level.addFreshEntity(entityToSpawn);
 			}
 			if (world instanceof Level _level && !_level.isClientSide()) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.6), (z + 0.5),
-						new ItemStack(SweetberryfoodsModItems.BLUEBERRIES));
+				ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.6), (z + 0.5), new ItemStack(SweetberryfoodsModItems.BLUEBERRIES));
 				entityToSpawn.setPickUpDelay(10);
 				_level.addFreshEntity(entityToSpawn);
 			}
 			if (Math.random() <= 0.5) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.6), (z + 0.5),
-							new ItemStack(SweetberryfoodsModItems.BLUEBERRIES));
+					ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.6), (z + 0.5), new ItemStack(SweetberryfoodsModItems.BLUEBERRIES));
 					entityToSpawn.setPickUpDelay(10);
 					_level.addFreshEntity(entityToSpawn);
 				}

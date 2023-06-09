@@ -9,10 +9,9 @@ import net.minecraft.world.food.FoodProperties;
 
 public class CocoaCoveredSweetBerriesItem extends Item {
 	public CocoaCoveredSweetBerriesItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.15f)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.15f)
 
-						.build()));
+				.build()));
 	}
 
 	@Override

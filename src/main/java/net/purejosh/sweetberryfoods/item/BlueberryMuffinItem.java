@@ -9,10 +9,9 @@ import net.minecraft.world.food.FoodProperties;
 
 public class BlueberryMuffinItem extends Item {
 	public BlueberryMuffinItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.15f)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.15f)
 
-						.build()));
+				.build()));
 	}
 
 	@Override

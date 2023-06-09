@@ -21,14 +21,10 @@ public class SweetberryfoodsModBlocks {
 	public static Block BLUEBERRY_BUSH_PLANT_STAGE_3;
 
 	public static void load() {
-		BLUEBERRY_BUSH_PLANT_STAGE_0 = Registry.register(Registry.BLOCK,
-				new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_0"), new BlueberryBushPlantStage0Block());
-		BLUEBERRY_BUSH_PLANT_STAGE_1 = Registry.register(Registry.BLOCK,
-				new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_1"), new BlueberryBushPlantStage1Block());
-		BLUEBERRY_BUSH_PLANT_STAGE_2 = Registry.register(Registry.BLOCK,
-				new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_2"), new BlueberryBushPlantStage2Block());
-		BLUEBERRY_BUSH_PLANT_STAGE_3 = Registry.register(Registry.BLOCK,
-				new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_3"), new BlueberryBushPlantStage3Block());
+		BLUEBERRY_BUSH_PLANT_STAGE_0 = Registry.register(Registry.BLOCK, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_0"), new BlueberryBushPlantStage0Block());
+		BLUEBERRY_BUSH_PLANT_STAGE_1 = Registry.register(Registry.BLOCK, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_1"), new BlueberryBushPlantStage1Block());
+		BLUEBERRY_BUSH_PLANT_STAGE_2 = Registry.register(Registry.BLOCK, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_2"), new BlueberryBushPlantStage2Block());
+		BLUEBERRY_BUSH_PLANT_STAGE_3 = Registry.register(Registry.BLOCK, new ResourceLocation(SweetberryfoodsMod.MODID, "blueberry_bush_plant_stage_3"), new BlueberryBushPlantStage3Block());
 	}
 
 	public static void clientLoad() {

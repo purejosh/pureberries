@@ -9,10 +9,9 @@ import net.minecraft.world.food.FoodProperties;
 
 public class SweetBerryTartItem extends Item {
 	public SweetBerryTartItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.3f)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.3f)
 
-						.build()));
+				.build()));
 	}
 
 	@Override
