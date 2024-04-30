@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "adv_give_blueberry_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pureberries:blueberries"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "pureberries:blueberries_campfire",
+      "pureberries:blueberries_smelt",
+      "pureberries:blueberries_smoke",
+      "pureberries:blueberry_biscuit_craft",
+      "pureberries:blueberries_cocoa_covered_craft",
+      "pureberries:blueberries_honey_dipped_craft",
+      "pureberries:blueberry_jam_craft",
+      "pureberries:blueberry_jam_sandwich_craft",
+      "pureberries:blueberry_juice_craft",
+      "pureberries:blueberry_muffin_craft",
+      "pureberries:blueberry_tart_craft"
+    ]
+  }
+}

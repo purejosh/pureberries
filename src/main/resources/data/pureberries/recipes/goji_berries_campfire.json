@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 0,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "pureberries:goji_berries"
+  },
+  "result": "pureberries:goji_berries_cooked"
+}

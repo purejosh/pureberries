@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "experience": 0,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "minecraft:sweet_berries"
+  },
+  "result": "pureberries:sweet_berries_cooked"
+}

@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="Custom license"
+
+[[mods]]
+modId="sweetberryfoods"
+version="3.1.2"
+displayName="Sweet Berry Foods"
+credits="Made by purejosh"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/sweet-berry-foods-fabric-forge"
+logoFile="logo.png"
+authors="purejosh"
+description="A simple, cleanly designed mod that adds new foods related to the sweet berry, with a focus on maintaining balance and vanilla mechanics. Now with custom berries!"
+
+[[dependencies.sweetberryfoods]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

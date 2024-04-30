@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "jam_sandwich",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "pureberries:cloudberry_jam"
+    },
+    "1": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "pureberries:cloudberry_jam_sandwich",
+    "count": 1
+  }
+}

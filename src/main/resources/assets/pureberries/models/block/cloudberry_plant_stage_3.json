@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "pureberries:block/cloudberry_plant_stage3",
+    "particle": "pureberries:block/cloudberry_plant_stage3"
+  },
+  "render_type": "cutout"
+}

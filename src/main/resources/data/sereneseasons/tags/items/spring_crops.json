@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+	  "pureberries:cloudberries",
+	  "pureberries:goji_berries",
+	  "pureberries:blueberries"
+	]
+  }

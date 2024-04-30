@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "adv_give_glow_berry_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_berries"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "pureberries:glow_berries_campfire",
+      "pureberries:glow_berries_cocoa_covered_craft",
+      "pureberries:glow_berries_honey_dipped_craft",
+      "pureberries:glow_berries_smelt",
+      "pureberries:glow_berries_smoke",
+      "pureberries:glow_berry_biscuit_craft",
+      "pureberries:glow_berry_jam_craft",
+      "pureberries:glow_berry_jam_sandwich_craft",
+      "pureberries:glow_berry_juice_craft",
+      "pureberries:glow_berry_muffin_craft",
+      "pureberries:glow_berry_tart_craft"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "jam",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3  "
+  ],
+  "key": {
+    "0": {
+      "item": "pureberries:blueberries_cooked"
+    },
+    "1": {
+      "item": "pureberries:blueberries_cooked"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "pureberries:blueberry_jam",
+    "count": 1
+  }
+}

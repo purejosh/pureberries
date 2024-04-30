@@ -4,7 +4,7 @@ A simple, cleanly designed mod that adds new berries and new foods for existing 
 
 ## Download
 
-Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/pure-berries-foods-fabric-forge) or [Modrinth](https://modrinth.com/mod/pure-berries).
+Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/pureberries) or [Modrinth](https://modrinth.com/mod/pureberries).
 
 ## Issues or Suggestions
 
