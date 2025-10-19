@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "juice",
+  "ingredients": [
+    {
+      "item": "pureberries:glow_berries_cooked"
+    },
+    {
+      "item": "pureberries:glow_berries_cooked"
+    },
+    {
+      "item": "pureberries:glow_berries_cooked"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureberries:glow_berry_juice"
+  }
+}

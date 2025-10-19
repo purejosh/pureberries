@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blackcurrant_jam": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pureberries:blackcurrant_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pureberries:blackcurrant_jam_sandwich"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blackcurrant_jam"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pureberries:blackcurrant_jam_sandwich"
+    ]
+  }
+}

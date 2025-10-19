@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cookie",
+  "key": {
+    "#": {
+      "item": "pureberries:blackcurrants"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "W#W"
+  ],
+  "result": {
+    "count": 8,
+    "id": "pureberries:blackcurrant_cookie"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pureberries:block/cape_gooseberry_shrub_stage3"
+  }
+}

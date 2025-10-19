@@ -1,0 +1,63 @@
+{
+	"nimbus_whirl": {
+		"subtitle": "subtitles.pureberries.nimbus_whirl",
+		"sounds": [
+			{
+				"name": "minecraft:entity.breeze.whirl",
+				"type": "event"
+			}
+		]
+	},
+	"nimbus_end": {
+		"subtitle": "subtitles.pureberries.nimbus_end",
+		"sounds": [
+			{
+				"name": "minecraft:entity.ghast.shoot",
+				"type": "event"
+			}
+		]
+	},
+	"mortar_use": {
+		"subtitle": "subtitles.pureberries.mortar_use",
+		"sounds": [
+			{
+				"name": "minecraft:block.grindstone.use",
+				"type": "event"
+			}
+		]
+	},
+	"mortar_plant": {
+		"sounds": [
+			{
+				"name": "minecraft:item.nether_wart.plant",
+				"type": "event"
+			}
+		]
+	},
+	"mortar_impact": {
+		"subtitle": "subtitles.pureberries.mortar_impact",
+		"sounds": [
+			{
+				"name": "minecraft:entity.goat.ram_impact",
+				"type": "event"
+			}
+		]
+	},
+	"mortar_shatter": {
+		"sounds": [
+			{
+				"name": "minecraft:block.decorated_pot.shatter",
+				"type": "event"
+			}
+		]
+	},
+	"mortar_hit": {
+		"subtitle": "subtitles.pureberries.mortar_hit",
+		"sounds": [
+			{
+				"name": "minecraft:block.decorated_pot.hit",
+				"type": "event"
+			}
+		]
+	}
+}

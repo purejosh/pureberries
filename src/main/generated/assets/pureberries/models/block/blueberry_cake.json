@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cake",
+  "textures": {
+    "bottom": "minecraft:block/cake_bottom",
+    "particle": "minecraft:block/cake_side",
+    "side": "minecraft:block/cake_side",
+    "top": "pureberries:block/blueberry_cake_top"
+  }
+}

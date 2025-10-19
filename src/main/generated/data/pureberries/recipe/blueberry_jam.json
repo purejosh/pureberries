@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "jam",
+  "ingredients": [
+    {
+      "item": "pureberries:blueberries_cooked"
+    },
+    {
+      "item": "pureberries:blueberries_cooked"
+    },
+    {
+      "item": "pureberries:blueberries_cooked"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureberries:blueberry_jam"
+  }
+}

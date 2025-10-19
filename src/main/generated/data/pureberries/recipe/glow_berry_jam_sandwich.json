@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "jam_sandwich",
+  "ingredients": [
+    {
+      "item": "pureberries:glow_berry_jam"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureberries:glow_berry_jam_sandwich"
+  }
+}

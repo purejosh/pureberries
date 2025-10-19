@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "pie",
+  "ingredients": [
+    {
+      "item": "pureberries:gooseberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureberries:gooseberry_pie"
+  }
+}

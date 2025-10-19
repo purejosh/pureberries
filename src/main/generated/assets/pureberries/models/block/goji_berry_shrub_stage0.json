@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pureberries:block/goji_berry_shrub_stage0"
+  }
+}

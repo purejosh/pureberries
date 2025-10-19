@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "pureberries:block/goji_berry_bush_stage0",
-    "particle": "pureberries:block/goji_berry_bush_stage0"
-  },
-  "render_type": "cutout"
-}

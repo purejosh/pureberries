@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cocoa_covered",
+  "ingredients": [
+    {
+      "item": "pureberries:cape_gooseberries_cooked"
+    },
+    {
+      "item": "pureberries:cape_gooseberries_cooked"
+    },
+    {
+      "item": "pureberries:cape_gooseberries_cooked"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "pureberries:cape_gooseberries_cocoa_covered"
+  }
+}

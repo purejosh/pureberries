@@ -1,0 +1,9 @@
+{
+	"input": "pureberries:gooseberries",
+	"outputs": [
+		{
+			"item": "minecraft:lime_dye",
+			"count": 1
+		}
+	]
+}

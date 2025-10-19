@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "golden",
+  "key": {
+    "#": {
+      "item": "pureberries:cape_gooseberries"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "G#G",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureberries:cape_gooseberries_golden"
+  }
+}

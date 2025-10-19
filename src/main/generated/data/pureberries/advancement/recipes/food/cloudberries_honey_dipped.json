@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cloudberries_cooked": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pureberries:cloudberries_cooked"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pureberries:cloudberries_honey_dipped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cloudberries_cooked"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pureberries:cloudberries_honey_dipped"
+    ]
+  }
+}

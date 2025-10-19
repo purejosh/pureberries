@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blueberries_cooked": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pureberries:blueberries_cooked"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pureberries:blueberries_honey_dipped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blueberries_cooked"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pureberries:blueberries_honey_dipped"
+    ]
+  }
+}

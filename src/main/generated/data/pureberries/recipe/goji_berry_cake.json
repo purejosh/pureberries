@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cake",
+  "key": {
+    "#": {
+      "item": "pureberries:goji_berries"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "#E#",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureberries:goji_berry_cake"
+  }
+}

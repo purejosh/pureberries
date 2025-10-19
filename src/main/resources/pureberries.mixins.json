@@ -1,11 +1,10 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "net.purejosh.pureberries.mixins",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
-	"PureberriesModRepairItemRecipeMixin"  ],
-  "injectors": {
-	"defaultRequire": 1
-  }
+	"required": true,
+	"package": "net.purejosh.pureberries.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"priority": 400,
+	"mixins": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
 }

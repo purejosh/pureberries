@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "golden",
+  "key": {
+    "#": {
+      "item": "minecraft:sweet_berries"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "G#G",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureberries:sweet_berries_golden"
+  }
+}

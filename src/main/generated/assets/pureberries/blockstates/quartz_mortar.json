@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "pureberries:block/quartz_mortar",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "pureberries:block/quartz_mortar"
+    },
+    "facing=south": {
+      "model": "pureberries:block/quartz_mortar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pureberries:block/quartz_mortar",
+      "y": 270
+    }
+  }
+}

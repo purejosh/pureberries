@@ -1,0 +1,13 @@
+{
+	"input": "minecraft:glow_berries",
+	"outputs": [
+		{
+			"item": "pureberries:glow_dye",
+			"count": 1
+		},
+		{
+			"item": "minecraft:lime_dye",
+			"count": 1
+		}
+	]
+}

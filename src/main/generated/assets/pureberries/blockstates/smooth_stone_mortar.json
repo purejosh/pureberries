@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "pureberries:block/smooth_stone_mortar",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "pureberries:block/smooth_stone_mortar"
+    },
+    "facing=south": {
+      "model": "pureberries:block/smooth_stone_mortar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pureberries:block/smooth_stone_mortar",
+      "y": 270
+    }
+  }
+}

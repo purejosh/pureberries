@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_redcurrants_cooked": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pureberries:redcurrants_cooked"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pureberries:redcurrants_cocoa_covered"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_redcurrants_cooked"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pureberries:redcurrants_cocoa_covered"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cocoa_covered",
+  "ingredients": [
+    {
+      "item": "pureberries:cloudberries_cooked"
+    },
+    {
+      "item": "pureberries:cloudberries_cooked"
+    },
+    {
+      "item": "pureberries:cloudberries_cooked"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "pureberries:cloudberries_cocoa_covered"
+  }
+}

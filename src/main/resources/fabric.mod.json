@@ -1,34 +1,41 @@
 {
-  "schemaVersion": 1,
-  "id": "pureberries",
-  "version": "4.0.2",
-  "name": "Pure Berries",
-  "description": "A simple, cleanly designed mod that adds new berries to the world, as well as foods for new and existing berries, with a focus on maintaining balance and vanilla mechanics.",
-  "authors": [
-    "purejosh"
-  ],
-  "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pureberries",
-    "sources": ""
-  },
-  "license": "Custom license",
-  "icon": "assets/pureberries/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.purejosh.pureberries.PureberriesMod"
-    ],
-    "client": [
-      "net.purejosh.pureberries.ClientInit"
-    ]
-  },
-  "depends": {
-    "fabricloader": ">=0.14.21",
-    "fabric": "*",
-    "minecraft": "~1.20",
-    "java": ">=17"
-  },
-  "mixins": [
-    "pureberries.mixins.json"
-  ]
+	"schemaVersion": 1,
+	"id": "pureberries",
+	"version": "5.0.0",
+	"name": "Pure Berries",
+	"description": "A simple, cleanly designed mod that adds new berries to the world, as well as foods for new and existing berries, with a focus on maintaining balance and vanilla mechanics.",
+	"authors": [
+		"purejosh"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/pureberries",
+		"sources": "https://github.com/purejosh/pureberries",
+		"issues": "https://github.com/purejosh/pureberries/issues"
+	},
+	"license": "MIT-R-NR",
+	"icon": "assets/pureberries/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.purejosh.pureberries.PureBerries"
+		],
+		"client": [
+			"net.purejosh.pureberries.PureBerriesClient"
+		],
+		"fabric-datagen": [
+			"net.purejosh.pureberries.PureBerriesDataGenerator"
+		]
+	},
+	"mixins": [
+		"pureberries.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.21 <=1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }

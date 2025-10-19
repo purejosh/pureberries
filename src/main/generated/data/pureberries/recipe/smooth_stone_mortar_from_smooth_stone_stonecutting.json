@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:smooth_stone"
+  },
+  "result": {
+    "count": 1,
+    "id": "pureberries:smooth_stone_mortar"
+  }
+}

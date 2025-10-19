@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pureberries:block/cloudberry_patch_stage2"
+  }
+}

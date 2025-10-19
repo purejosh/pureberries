@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "golden",
+  "key": {
+    "#": {
+      "item": "pureberries:redcurrants"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "G#G",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureberries:redcurrants_golden"
+  }
+}

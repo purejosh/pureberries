@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "juice",
+  "ingredients": [
+    {
+      "item": "pureberries:blueberries_cooked"
+    },
+    {
+      "item": "pureberries:blueberries_cooked"
+    },
+    {
+      "item": "pureberries:blueberries_cooked"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureberries:blueberry_juice"
+  }
+}

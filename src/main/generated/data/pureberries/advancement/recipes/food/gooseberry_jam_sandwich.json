@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gooseberry_jam": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pureberries:gooseberry_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pureberries:gooseberry_jam_sandwich"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gooseberry_jam"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pureberries:gooseberry_jam_sandwich"
+    ]
+  }
+}

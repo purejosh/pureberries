@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "muffin",
+  "key": {
+    "#": {
+      "item": "pureberries:gooseberries"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "SMS",
+    "#E#",
+    "WWW"
+  ],
+  "result": {
+    "count": 3,
+    "id": "pureberries:gooseberry_muffin"
+  }
+}

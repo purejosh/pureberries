@@ -1,0 +1,10 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by purejosh",
+	"parent": "pureberries:block/stone_mortar",
+	"textures": {
+		"0": "block/polished_blackstone",
+		"1": "block/moss_block",
+		"particle": "block/polished_blackstone"
+	}
+}

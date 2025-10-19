@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "honey_dipped",
+  "ingredients": [
+    {
+      "item": "pureberries:sweet_berries_cooked"
+    },
+    {
+      "item": "pureberries:sweet_berries_cooked"
+    },
+    {
+      "item": "pureberries:sweet_berries_cooked"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "pureberries:sweet_berries_honey_dipped"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gooseberries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pureberries:gooseberries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gooseberries_cooked_from_campfire_cooking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gooseberries"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gooseberries_cooked_from_campfire_cooking"
+    ]
+  }
+}

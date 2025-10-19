@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cloudberry_jam": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pureberries:cloudberry_jam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pureberries:cloudberry_jam_sandwich"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cloudberry_jam"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pureberries:cloudberry_jam_sandwich"
+    ]
+  }
+}

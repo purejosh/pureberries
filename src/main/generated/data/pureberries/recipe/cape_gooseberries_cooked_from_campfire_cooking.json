@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "pureberries:cape_gooseberries"
+  },
+  "result": {
+    "id": "pureberries:cape_gooseberries_cooked"
+  }
+}

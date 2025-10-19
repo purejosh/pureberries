@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pureberries:block/redcurrant_shrub_stage0"
+  }
+}

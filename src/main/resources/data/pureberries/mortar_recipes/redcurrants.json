@@ -1,0 +1,13 @@
+{
+	"input": "pureberries:redcurrants",
+	"outputs": [
+		{
+			"item": "minecraft:red_dye",
+			"count": 1
+		},
+		{
+			"item": "minecraft:green_dye",
+			"count": 1
+		}
+	]
+}
